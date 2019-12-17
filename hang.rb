@@ -33,7 +33,6 @@ while turns > 0
 	puts "Guess a character :"
 	guess = gets
 	guesses += guess
-	#if not word.include?(guess)
 	i=0
 	while i<word.length 
 		if guess[0]==word[i]
